@@ -1,0 +1,154 @@
+body{
+    margin: 0%;
+    padding:0%;
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: 0% auto;
+}
+
+.global-padding{
+    padding:0% 50px;
+}
+
+.logo{
+    color: blueviolet;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    
+}
+
+
+ul a{
+    text-decoration: none;
+}
+
+ul a:hover{
+    color:palevioletred;
+    font-weight: bold;
+}
+
+.banner-container{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.banner-title{
+    width: 50%;
+}
+.banner-heading{
+    color:#0766AD;
+}
+.banner-desc{
+    color:#D0A2F7;
+}
+.banner-img{
+    width: 50%;
+    display:flex;
+    justify-content:end;
+    padding: 20px;
+}
+
+.resume-button{
+    background-color: palevioletred;
+    border:none;
+    border-radius: 10px;
+    padding:18px 18px;
+    color:white;
+    font-weight: bolder;
+}
+.resume-button:hover{
+    cursor:pointer;
+    background-color: blue;
+}
+
+header{
+    background-color:#F1EAFF;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: purple;
+}
+
+.post-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.post-container2{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: 20px;
+}
+.post-desc{
+    color:purple;
+    font-weight:bold;
+}
+.post-button{
+    background-color: pink;
+    border: none;
+    padding: 15px 15px;
+    color:purple;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.post-button:hover{
+    cursor: pointer;
+}
+
+.Dashboard{
+    display: flex;
+    gap: 40px;
+   
+}
+
+.dashboard-one{
+    padding-left: 80px;
+    
+}
+
+.dashboard-two{
+    
+}
+
+.P-Dashboard{
+    display: flex;
+    gap:40px;
+    padding-bottom: 40px;
+}
+
+.P-dashboard-one{
+    padding-left: 80px;
+}
+
+
+footer{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+footer img{
+    margin-left: 20px;
+}
+
+h4{
+    color:purple;
+    padding:10px;
+}
+
